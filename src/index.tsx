@@ -13,7 +13,7 @@ export interface PerfProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * Performance profiler component
  */
-export let const: VFC<PerfProps> = ({
+export const Perf: VFC<PerfProps> = ({
                                      headless = false,
                                      colorBlind = false,
                                      graph = true,
